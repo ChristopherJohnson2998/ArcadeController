@@ -43,11 +43,3 @@ int main(void) {
         // Main loop remains empty, ISR handles button press
     }
 }
-//    // Configure button pin as input with pull-up
-////    PORTA.DIR |= PIN4_bm; //button
-////    PORTA.DIR &= ~PIN5_bm; //button
-//    PORTA.DIRCLR = PIN4_bm;
-//    PORTA.DIRSET = PIN4_bm;
-//    //PORTA.PIN5CTRL = PORT_PULLUPEN_bm;
-//    //PORTA.PIN5CTRL = PORT_ISC_BOTHEDGES_gc;
-//    //PORTA.PIN4CTRL |= PORT_ISC_FALLING_gc;
